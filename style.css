@@ -1,0 +1,288 @@
+/*
+    'Raleway' Normal: 400, Semi-bold: 600, Bold: 700, Extra-Bold: 800
+*/
+
+body {
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Raleway', sans-serif;
+    font-size:1em;
+}
+
+p {
+    margin-top:0;
+    font-size:1.125em;
+    line-height:1.5em;
+    font-weight:400;
+}
+
+p strong{
+    font-weight:700;
+}
+
+p a{
+    color:#ffffff;
+    font-weight:600;
+}
+
+i{ 
+    font-style: italic;
+}
+
+img {
+    display:block;
+    max-width:100%;
+}
+
+img.center{
+    margin:0 auto;
+}
+
+img.margin-b{
+    margin-bottom:20px;
+}
+
+.red{ background-color: #e84c3d; color: #ffffff; }
+.lightblue{ background-color: #eff3f4; color: #374756; }
+.darkblue{ background-color: #2d3e50; color: #ffffff; }
+.medblue{ background-color:#3a5998; color:#ffffff; }
+.turquoise{ background-color: #49d5ca; color: #374756; }
+.darkblue{ background-color: #2d3e50; }
+.yellow{ background-color:#f9c742; }
+.black{ background-color:#000000; }
+.yellowtext{ color: #f9c742; }
+.bluetext{ color:#374756 ;}
+.greentext{ color:#a9cf6a; }
+.orangetext{ color:#fd5f42; }
+.greytext{ color:#e4e3de; }
+
+.lightblue a{
+    color: #374756;
+}
+
+.colour-block{
+    border-bottom:3px solid #323338;
+}
+
+section, header {
+    width:1046px\9;
+    max-width: 1046px;
+    margin: 0 auto;
+    padding:40px 20px 60px 20px;
+    position:relative;
+}
+
+header{
+    background-image:url('images/logo.png');
+    background-position:center 25px;
+    background-repeat:no-repeat;
+    padding-top:140px;
+}
+
+header.subpage{
+    padding-bottom:10px;
+}
+
+footer{
+    padding:60px 0;
+}
+
+.no-pad-b{
+    padding-bottom:0;
+}
+
+.row:before{
+    display: table;
+    content: " ";
+}
+
+.row:after{
+    clear:both;
+    display: table;
+    content: " ";
+}
+
+.row{
+    *zoom: 1;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#nav-wrapper{
+    background-color:#f9c742;
+}
+
+nav{
+    width:1046px\9;
+    max-width: 1046px;
+    margin: 0 auto;
+}
+
+nav ul{
+    padding:0;
+    margin:0;
+     *zoom: 1;
+}
+
+nav ul:after{
+    clear:both;
+    display: table;
+    content: " ";
+}
+
+nav ul{
+    *zoom: 1;
+    width:900px;
+    margin:0 auto;
+}
+
+nav ul li{
+    list-style-type:none;
+    float:left;
+    display:block;
+    margin:0 18px;
+}
+
+nav ul li a{
+    line-height:24px;
+    font-size:0.9375em;
+    color:#374756;
+    font-weight:600;
+    text-decoration:none;
+    line-height:2.3em;
+}
+
+nav ul li a:hover{
+    color:#e84c3d;
+}
+
+h1{
+    text-align:center;
+    font-size:3.5em;
+    font-weight:700;
+    color:#ffffff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    padding-right:20px;
+    margin-bottom:1.5em;
+}
+
+.no-margin-b{
+    margin-bottom:0;
+}
+
+h2{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:2.3em;
+    font-weight:700;
+}
+
+h2.subhead{
+    text-transform:none;
+    font-size:1.8em;
+    margin-top:0;
+}
+
+h3{
+    font-size:2em;
+    font-weight:700;
+    margin-top:0.5em;
+}
+
+h4{
+    font-size:1.2em;
+    font-weight:700;
+    margin-top:0;
+    margin-bottom:0.3em;
+}
+
+.grid-6{
+    width:472px;
+    margin:0 10px;
+    float:left;
+}
+
+.grid-6-5{
+    width:513px;
+    margin:0 10px;
+    float:left;
+}
+
+.grid-7{
+    width:554px;
+    margin:0 10px;
+    float:left;
+}
+
+.highlight{
+    font-size:24px;
+    font-weight:600;
+    line-height:1.2em;
+    letter-spacing:-0.5px;
+}
+
+.contact{
+    display:inline-block;
+    background-color:#f9c742;
+    border:3px solid #374756;
+    border-radius:25px;
+    padding:1px 15px;
+    text-decoration:none;
+    font-weight:600;
+    font-size:1em;
+    line-height:2.5em;
+    color:#374756;
+    position:absolute;
+    bottom:-26px;
+    margin:0 auto;
+    left:0;
+    right:0;
+    width:250px;
+    text-align:center;
+    z-index:10;
+}
+
+.contact a{
+    color:#374756;
+    text-decoration:none;
+}
+
+.contact a:first-of-type{
+    margin-right:20px;
+}
+
+.contact a:hover{
+    color:#e84c3d;
+}
+
+iframe{
+    width:100%;
+    border:2px solid #ffffff;
+    height:420px;
+    overflow:hidden;
+}
+
+@media only screen and (max-width: 1100px) {
+    
+    .grid-6, .grid-7, .grid-6-5{
+        width:98%;
+        padding-bottom:40px;
+    }
+
+    .grid-6-5{
+        padding-bottom:0px;
+    }
+
+    img{
+        margin:0 auto;
+    }
+
+    #nav-wrapper{
+        display:none;
+    }
+
+    iframe {
+        width: 98%;
+    }
+}
